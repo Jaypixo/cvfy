@@ -1,13 +1,13 @@
 <script setup lang="ts">
 import { useCvState } from '~/data/useCvState'
 
-const CVFY_IMAGE = 'https://cvfy.xyz/CvFy-no-border.png'
+const VITAPIX_IMAGE = '/logo.svg'
 
 const { setUpCvSettings } = useCvState()
 const route = useRoute()
 const { t, locale } = useI18n()
 
-const href = `https://cvfy.xyz${route.path}`
+const href = `https://vitapix.dev${route.path}`
 
 onMounted(() => {
   setUpCvSettings()
@@ -36,15 +36,15 @@ useHead({
     },
     {
       name: 'author',
-      content: 'claudiabdm',
+      content: 'Jaypix',
     },
     {
       property: 'og:image',
-      content: CVFY_IMAGE,
+      content: VITAPIX_IMAGE,
     },
     {
       property: 'og:author',
-      content: 'Claudia Benito',
+      content: 'Jaypix',
     },
     {
       property: 'og:title',
@@ -56,7 +56,7 @@ useHead({
     },
     {
       name: 'twitter:creator',
-      content: '@claudiabdm',
+      content: 'Jaypix',
     },
     {
       name: 'twitter:title',

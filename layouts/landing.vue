@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-const CVFY_IMAGE = 'https://cvfy.xyz/CvFy-no-border.png'
+const VITAPIX_IMAGE = '/logo.svg'
 
 const { locale, t } = useI18n()
 const route = useRoute()
 const localePath = useLocalePath()
-const HREF = `https://cvfy.xyz${route.path}`
-const GITHUB = 'https://github.com/claudiabdm/cvfy'
+const HREF = `https://vitapix.dev${route.path}`
+const GITHUB = 'https://github.com/Jaypixo/vitapix'
 
 useHead({
   htmlAttrs: {
@@ -19,15 +19,15 @@ useHead({
     },
     {
       name: 'author',
-      content: 'claudiabdm',
+      content: 'Jaypix',
     },
     {
       property: 'og:image',
-      content: CVFY_IMAGE,
+      content: VITAPIX_IMAGE,
     },
     {
       property: 'og:author',
-      content: 'Claudia Benito',
+      content: 'Jaypix',
     },
     {
       property: 'og:title',
@@ -39,7 +39,7 @@ useHead({
     },
     {
       name: 'twitter:creator',
-      content: '@claudiabdm',
+      content: '@Jaypixo',
     },
     {
       name: 'twitter:title',

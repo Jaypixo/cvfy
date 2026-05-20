@@ -9,7 +9,7 @@ export default defineNuxtConfig({
       // eslint-disable-next-line node/prefer-global/process
       process.env.NODE_ENV === 'dev'
         ? 'http://localhost:3000'
-        : 'https://www.cvfy.xyz',
+        : 'https://vitapix.dev',
   },
 
   imports: {
@@ -143,8 +143,8 @@ export default defineNuxtConfig({
       config: true,
     },
     manifest: {
-      name: 'Cvfy',
-      short_name: 'CvFy',
+      name: 'Vitapix',
+      short_name: 'Vitapix',
       lang: 'en',
       scope: '/',
       display: 'standalone',

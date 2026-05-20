@@ -47,10 +47,10 @@ const { formSettings, isLoading } = useCvState()
       <a
         class="underline"
         :style="{ color: 'var(--primary)' }"
-        href="https://github.com/claudiabdm"
+        href="https://jaypix.dev"
         rel="noopener"
         target="_blank"
-      >claudiabdm</a>
+      >Jaypix</a>
       using <b>Nuxt.js</b> + <b>TailwindCSS</b>
     </div>
   </div>

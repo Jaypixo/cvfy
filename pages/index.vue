@@ -47,11 +47,11 @@ definePageMeta({
       Made with ♥️ by
       <LandingLink
         class="underline"
-        to="https://github.com/claudiabdm"
+        to="https://jaypix.dev"
         external
       >
         <span class="text-violet-800">
-          claudiabdm
+          Jaypix
         </span>
       </LandingLink>
     </div>

@@ -1,15 +1,15 @@
-# CvFy
+# Vitapix
 
-[![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/3280-shield.svg)](https://madewithvuejs.com/p/cvfy/shield-link)
+[![MadeWithVueJs.com shield](https://madewithvuejs.com/storage/repo-shields/3280-shield.svg)](https://madewithvuejs.com/p/vitapix/shield-link)
 
-![CvFy](/public/CvFy.png)
+![Vitapix](/public/logo.svg)
 
-CvFy is an open-sourced multilingual app that makes CV creation faster and easier.
+Vitapix is an open-sourced multilingual app that makes CV creation faster and easier.
 
 > [!NOTE]
 > PDF creation is client-side only, so results may differ among browsers.
 
-Demo: https://cvfy.xyz/
+Demo: https://vitapix.dev/
 
 ## Features
 - Multilingual

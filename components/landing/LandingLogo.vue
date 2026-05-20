@@ -6,14 +6,14 @@ const localePath = useLocalePath()
   <h1>
     <NuxtLink
       :to="localePath('/')"
-      class="bg-none font-bold text-fl-lg font-logo uppercase tracking-widest"
+      class="bg-none font-bold text-fl-lg uppercase tracking-widest inline-flex items-center justify-center"
       active-class="bg-none"
     >
-      <span
-        class="text-transparent bg-gradient-to-br from-violet-800 to-fuchsia-700 bg-clip-text hover:opacity-80"
+      <img
+        src="/logo.svg"
+        alt="Vitapix"
+        class="h-10 hover:opacity-80 transition-opacity"
       >
-        CvFy
-      </span>
     </NuxtLink>
   </h1>
 </template>
